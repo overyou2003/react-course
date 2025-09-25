@@ -5,14 +5,20 @@
   </head>
   <body>
     <div class="js-container"></div>
-
+    <script src="https://unpkg.com/supersimpledev/dayjs.js"></script>
+    
     <script src="https://unpkg.com/supersimpledev/react.js"></script>
     <script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
 
     <script src="https://unpkg.com/supersimpledev/babel.js"></script>
     <script type="text/babel">
+      const name = 'Dreams';
+      const button = 
+      <div>
+        My name is {name}  
+      </div>;
       const container = document.querySelector('.js-container');
-      ReactDOM.createRoot(container).render('Welcome to SuperSimpleDev React Course');
+      ReactDOM.createRoot(container).render(button);
     </script>
   </body>
 </html>
