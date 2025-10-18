@@ -19,5 +19,5 @@ fetch('https://jsonplaceholder.typicode.com/posts')
     })
 
     .catch(error => {
-        console.log('e dsdsadasdataddd' , error)
+        console.log('e dasdasdadasd' , error)
     })
